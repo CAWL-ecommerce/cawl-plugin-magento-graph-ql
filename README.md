@@ -1,0 +1,1 @@
+# cawl-plugin-magento-graph-ql
