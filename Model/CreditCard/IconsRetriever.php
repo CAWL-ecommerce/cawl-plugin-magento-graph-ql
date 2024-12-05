@@ -1,11 +1,11 @@
 <?php
 declare(strict_types=1);
 
-namespace Worldline\GraphQl\Model\CreditCard;
+namespace Cawl\GraphQl\Model\CreditCard;
 
-use Worldline\CreditCard\Ui\PaymentIconsProvider;
-use Worldline\GraphQl\Model\PaymentIcons\IconsFormatter;
-use Worldline\GraphQl\Model\PaymentIcons\IconsRetrieverInterface;
+use Cawl\CreditCard\Ui\PaymentIconsProvider;
+use Cawl\GraphQl\Model\PaymentIcons\IconsFormatter;
+use Cawl\GraphQl\Model\PaymentIcons\IconsRetrieverInterface;
 
 class IconsRetriever implements IconsRetrieverInterface
 {

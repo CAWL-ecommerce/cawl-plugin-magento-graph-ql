@@ -1,12 +1,12 @@
 <?php
 declare(strict_types=1);
 
-namespace Worldline\GraphQl\Plugin\Model\Order\OrderPayments;
+namespace Cawl\GraphQl\Plugin\Model\Order\OrderPayments;
 
 use Magento\Sales\Api\Data\OrderInterface;
 use Magento\SalesGraphQl\Model\Order\OrderPayments;
-use Worldline\PaymentCore\Api\Ui\PaymentIconsProviderInterface;
-use Worldline\PaymentCore\Model\Transaction\PaymentInfoBuilder;
+use Cawl\PaymentCore\Api\Ui\PaymentIconsProviderInterface;
+use Cawl\PaymentCore\Model\Transaction\PaymentInfoBuilder;
 
 class AddPaymentDetails
 {

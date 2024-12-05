@@ -15,7 +15,7 @@
     "authors": [
         {
             "name": "Cawl Online Payments",
-            "homepage": "https://worldline.com/"
+            "homepage": "https://cawl.fr/"
         }
     ],
     "autoload": {
@@ -23,7 +23,7 @@
             "registration.php"
         ],
         "psr-4": {
-            "Worldline\\GraphQl\\": ""
+            "Cawl\\GraphQl\\": ""
         }
     }
 }

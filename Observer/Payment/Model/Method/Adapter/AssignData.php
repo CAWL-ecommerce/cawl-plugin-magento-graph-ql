@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Worldline\GraphQl\Observer\Payment\Model\Method\Adapter;
+namespace Cawl\GraphQl\Observer\Payment\Model\Method\Adapter;
 
 use Magento\Framework\Event\Observer;
 use Magento\Framework\Event\ObserverInterface;

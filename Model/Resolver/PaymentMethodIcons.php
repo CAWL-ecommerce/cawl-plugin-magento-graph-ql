@@ -1,13 +1,13 @@
 <?php
 declare(strict_types=1);
 
-namespace Worldline\GraphQl\Model\Resolver;
+namespace Cawl\GraphQl\Model\Resolver;
 
 use Magento\Framework\Exception\LocalizedException;
 use Magento\Framework\GraphQl\Config\Element\Field;
 use Magento\Framework\GraphQl\Query\ResolverInterface;
 use Magento\Framework\GraphQl\Schema\Type\ResolveInfo;
-use Worldline\GraphQl\Model\PaymentIcons\IconsRetriever;
+use Cawl\GraphQl\Model\PaymentIcons\IconsRetriever;
 
 class PaymentMethodIcons implements ResolverInterface
 {

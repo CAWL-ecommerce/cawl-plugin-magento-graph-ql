@@ -1,14 +1,14 @@
 <?php
 declare(strict_types=1);
 
-namespace Worldline\GraphQl\Model\Resolver\CreditCard;
+namespace Cawl\GraphQl\Model\Resolver\CreditCard;
 
 use Magento\Framework\Exception\LocalizedException;
 use Magento\Framework\GraphQl\Config\Element\Field;
 use Magento\Framework\GraphQl\Query\ResolverInterface;
 use Magento\Framework\GraphQl\Schema\Type\ResolveInfo;
-use Worldline\CreditCard\Model\ReturnRequestProcessor;
-use Worldline\PaymentCore\Model\OrderState\OrderState;
+use Cawl\CreditCard\Model\ReturnRequestProcessor;
+use Cawl\PaymentCore\Model\OrderState\OrderState;
 
 class RequestResult implements ResolverInterface
 {

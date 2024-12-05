@@ -3,10 +3,10 @@
         xsi:noNamespaceSchemaLocation="urn:magento:framework:Event/etc/events.xsd">
     <event name="payment_method_assign_data_worldline_cc">
         <observer name="Cawl_GraphQl::cc_assign_entered_data"
-                  instance="Worldline\GraphQl\Observer\Payment\Model\Method\Adapter\AssignData" />
+                  instance="Cawl\GraphQl\Observer\Payment\Model\Method\Adapter\AssignData" />
     </event>
     <event name="payment_method_assign_data_worldline_redirect_payment">
         <observer name="Cawl_GraphQl::rp_assign_entered_data"
-                  instance="Worldline\GraphQl\Observer\Payment\Model\Method\Adapter\AssignData" />
+                  instance="Cawl\GraphQl\Observer\Payment\Model\Method\Adapter\AssignData" />
     </event>
 </config>

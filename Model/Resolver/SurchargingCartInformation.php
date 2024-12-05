@@ -1,15 +1,15 @@
 <?php
 declare(strict_types=1);
 
-namespace Worldline\GraphQl\Model\Resolver;
+namespace Cawl\GraphQl\Model\Resolver;
 
 use Magento\Framework\GraphQl\Config\Element\Field;
 use Magento\Framework\GraphQl\Exception\GraphQlInputException;
 use Magento\Framework\GraphQl\Query\Resolver\ContextInterface;
 use Magento\Framework\GraphQl\Query\ResolverInterface;
 use Magento\Framework\GraphQl\Schema\Type\ResolveInfo;
-use Worldline\PaymentCore\Api\QuoteTotalInterface;
-use Worldline\PaymentCore\Api\SurchargingQuoteRepositoryInterface;
+use Cawl\PaymentCore\Api\QuoteTotalInterface;
+use Cawl\PaymentCore\Api\SurchargingQuoteRepositoryInterface;
 
 class SurchargingCartInformation implements ResolverInterface
 {

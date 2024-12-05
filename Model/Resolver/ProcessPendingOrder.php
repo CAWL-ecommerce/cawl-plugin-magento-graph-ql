@@ -1,13 +1,13 @@
 <?php
 declare(strict_types=1);
 
-namespace Worldline\GraphQl\Model\Resolver;
+namespace Cawl\GraphQl\Model\Resolver;
 
 use Magento\Framework\GraphQl\Config\Element\Field;
 use Magento\Framework\GraphQl\Query\Resolver\ContextInterface;
 use Magento\Framework\GraphQl\Query\ResolverInterface;
 use Magento\Framework\GraphQl\Schema\Type\ResolveInfo;
-use Worldline\PaymentCore\Api\PendingOrderManagerInterface;
+use Cawl\PaymentCore\Api\PendingOrderManagerInterface;
 
 class ProcessPendingOrder implements ResolverInterface
 {

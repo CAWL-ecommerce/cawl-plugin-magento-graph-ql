@@ -1,10 +1,10 @@
 <?php
 declare(strict_types=1);
 
-namespace Worldline\GraphQl\Model\RedirectPayment;
+namespace Cawl\GraphQl\Model\RedirectPayment;
 
 use Magento\Framework\GraphQl\Exception\GraphQlInputException;
-use Worldline\RedirectPayment\Ui\ConfigProvider;
+use Cawl\RedirectPayment\Ui\ConfigProvider;
 
 class VaultDataProvider
 {

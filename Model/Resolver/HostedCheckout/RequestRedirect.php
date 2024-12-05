@@ -1,15 +1,15 @@
 <?php
 declare(strict_types=1);
 
-namespace Worldline\GraphQl\Model\Resolver\HostedCheckout;
+namespace Cawl\GraphQl\Model\Resolver\HostedCheckout;
 
 use Magento\Framework\GraphQl\Config\Element\Field;
 use Magento\Framework\GraphQl\Exception\GraphQlInputException;
 use Magento\Framework\GraphQl\Query\ResolverInterface;
 use Magento\Framework\GraphQl\Schema\Type\ResolveInfo;
 use Magento\QuoteGraphQl\Model\Cart\GetCartForUser;
-use Worldline\GraphQl\Model\Payment\AdditionalInformationManager;
-use Worldline\HostedCheckout\Api\RedirectManagementInterface;
+use Cawl\GraphQl\Model\Payment\AdditionalInformationManager;
+use Cawl\HostedCheckout\Api\RedirectManagementInterface;
 
 class RequestRedirect implements ResolverInterface
 {

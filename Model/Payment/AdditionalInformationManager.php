@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Worldline\GraphQl\Model\Payment;
+namespace Cawl\GraphQl\Model\Payment;
 
 use Magento\Quote\Api\Data\CartInterface;
 use Magento\QuoteGraphQl\Model\Cart\Payment\AdditionalDataProviderPool;

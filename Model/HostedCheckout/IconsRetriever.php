@@ -1,11 +1,11 @@
 <?php
 declare(strict_types=1);
 
-namespace Worldline\GraphQl\Model\HostedCheckout;
+namespace Cawl\GraphQl\Model\HostedCheckout;
 
-use Worldline\GraphQl\Model\PaymentIcons\IconsFormatter;
-use Worldline\GraphQl\Model\PaymentIcons\IconsRetrieverInterface;
-use Worldline\PaymentCore\Api\Ui\PaymentIconsProviderInterface;
+use Cawl\GraphQl\Model\PaymentIcons\IconsFormatter;
+use Cawl\GraphQl\Model\PaymentIcons\IconsRetrieverInterface;
+use Cawl\PaymentCore\Api\Ui\PaymentIconsProviderInterface;
 
 class IconsRetriever implements IconsRetrieverInterface
 {

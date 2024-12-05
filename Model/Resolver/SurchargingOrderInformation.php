@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Worldline\GraphQl\Model\Resolver;
+namespace Cawl\GraphQl\Model\Resolver;
 
 use Magento\Framework\Exception\LocalizedException;
 use Magento\Framework\GraphQl\Config\Element\Field;
@@ -9,7 +9,7 @@ use Magento\Framework\GraphQl\Query\Resolver\ContextInterface;
 use Magento\Framework\GraphQl\Query\ResolverInterface;
 use Magento\Framework\GraphQl\Schema\Type\ResolveInfo;
 use Magento\Sales\Api\Data\OrderInterface;
-use Worldline\PaymentCore\Api\SurchargingQuoteRepositoryInterface;
+use Cawl\PaymentCore\Api\SurchargingQuoteRepositoryInterface;
 
 class SurchargingOrderInformation implements ResolverInterface
 {

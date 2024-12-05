@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Worldline\GraphQl\Model\Resolver\CreditCard;
+namespace Cawl\GraphQl\Model\Resolver\CreditCard;
 
 use Magento\Framework\Exception\LocalizedException;
 use Magento\Framework\Exception\NoSuchEntityException;
@@ -13,8 +13,8 @@ use Magento\Framework\GraphQl\Query\ResolverInterface;
 use Magento\Framework\GraphQl\Schema\Type\ResolveInfo;
 use Magento\Framework\Pricing\PriceCurrencyInterface;
 use Magento\QuoteGraphQl\Model\Cart\GetCartForUser;
-use Worldline\CreditCard\Api\CalculateSurchargeManagementInterface;
-use Worldline\CreditCard\Ui\ConfigProvider;
+use Cawl\CreditCard\Api\CalculateSurchargeManagementInterface;
+use Cawl\CreditCard\Ui\ConfigProvider;
 
 class CalculateSurcharge implements ResolverInterface
 {

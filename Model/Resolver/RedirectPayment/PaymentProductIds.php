@@ -1,13 +1,13 @@
 <?php
 declare(strict_types=1);
 
-namespace Worldline\GraphQl\Model\Resolver\RedirectPayment;
+namespace Cawl\GraphQl\Model\Resolver\RedirectPayment;
 
 use Magento\Framework\GraphQl\Config\Element\Field;
 use Magento\Framework\GraphQl\Query\ResolverInterface;
 use Magento\Framework\GraphQl\Schema\Type\ResolveInfo;
 use Magento\Framework\Serialize\Serializer\Json;
-use Worldline\PaymentCore\Api\Data\PaymentProductsDetailsInterface;
+use Cawl\PaymentCore\Api\Data\PaymentProductsDetailsInterface;
 
 class PaymentProductIds implements ResolverInterface
 {

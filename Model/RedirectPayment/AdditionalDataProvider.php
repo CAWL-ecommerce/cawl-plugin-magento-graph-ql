@@ -1,13 +1,13 @@
 <?php
 declare(strict_types=1);
 
-namespace Worldline\GraphQl\Model\RedirectPayment;
+namespace Cawl\GraphQl\Model\RedirectPayment;
 
 use Magento\Framework\App\Config\ScopeConfigInterface;
 use Magento\Framework\GraphQl\Exception\GraphQlInputException;
 use Magento\QuoteGraphQl\Model\Cart\Payment\AdditionalDataProviderInterface;
-use Worldline\RedirectPayment\Ui\ConfigProvider;
-use Worldline\RedirectPayment\WebApi\RedirectManagement;
+use Cawl\RedirectPayment\Ui\ConfigProvider;
+use Cawl\RedirectPayment\WebApi\RedirectManagement;
 
 class AdditionalDataProvider implements AdditionalDataProviderInterface
 {

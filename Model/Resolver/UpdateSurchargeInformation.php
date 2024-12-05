@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Worldline\GraphQl\Model\Resolver;
+namespace Cawl\GraphQl\Model\Resolver;
 
 use Magento\Framework\Exception\NoSuchEntityException;
 use Magento\Framework\GraphQl\Config\Element\Field;
@@ -13,9 +13,9 @@ use Magento\Framework\GraphQl\Query\ResolverInterface;
 use Magento\Framework\GraphQl\Schema\Type\ResolveInfo;
 use Magento\Quote\Api\Data\CartInterface;
 use Magento\QuoteGraphQl\Model\Cart\GetCartForUser;
-use Worldline\CreditCard\Ui\ConfigProvider;
-use Worldline\PaymentCore\Api\QuoteTotalInterface;
-use Worldline\PaymentCore\Api\SurchargingQuoteRepositoryInterface;
+use Cawl\CreditCard\Ui\ConfigProvider;
+use Cawl\PaymentCore\Api\QuoteTotalInterface;
+use Cawl\PaymentCore\Api\SurchargingQuoteRepositoryInterface;
 
 class UpdateSurchargeInformation implements ResolverInterface
 {

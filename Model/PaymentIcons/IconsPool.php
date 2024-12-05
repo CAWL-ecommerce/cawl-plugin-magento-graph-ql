@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Worldline\GraphQl\Model\PaymentIcons;
+namespace Cawl\GraphQl\Model\PaymentIcons;
 
 class IconsPool
 {

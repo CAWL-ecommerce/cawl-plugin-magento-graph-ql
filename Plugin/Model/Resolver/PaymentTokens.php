@@ -1,14 +1,14 @@
 <?php
 declare(strict_types=1);
 
-namespace Worldline\GraphQl\Plugin\Model\Resolver;
+namespace Cawl\GraphQl\Plugin\Model\Resolver;
 
 use Magento\Framework\GraphQl\Config\Element\Field;
 use Magento\Framework\GraphQl\Exception\GraphQlAuthorizationException;
 use Magento\Framework\GraphQl\Query\ResolverInterface;
 use Magento\GraphQl\Model\Query\ContextInterface;
 use Magento\Vault\Model\PaymentTokenManagement;
-use Worldline\CreditCard\Ui\ConfigProvider;
+use Cawl\CreditCard\Ui\ConfigProvider;
 
 class PaymentTokens
 {

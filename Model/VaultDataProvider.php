@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Worldline\GraphQl\Model;
+namespace Cawl\GraphQl\Model;
 
 use Magento\Framework\GraphQl\Exception\GraphQlInputException;
 

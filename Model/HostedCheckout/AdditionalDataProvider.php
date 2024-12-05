@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Worldline\GraphQl\Model\HostedCheckout;
+namespace Cawl\GraphQl\Model\HostedCheckout;
 
 use Magento\Framework\App\Config\ScopeConfigInterface;
 use Magento\Framework\GraphQl\Exception\GraphQlInputException;

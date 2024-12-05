@@ -1,13 +1,13 @@
 <?php
 declare(strict_types=1);
 
-namespace Worldline\GraphQl\Model\Resolver\CreditCard;
+namespace Cawl\GraphQl\Model\Resolver\CreditCard;
 
 use Magento\Framework\Exception\LocalizedException;
 use Magento\Framework\GraphQl\Config\Element\Field;
 use Magento\Framework\GraphQl\Query\ResolverInterface;
 use Magento\Framework\GraphQl\Schema\Type\ResolveInfo;
-use Worldline\CreditCard\Ui\ConfigProvider\CreateHostedTokenizationResponseProcessor;
+use Cawl\CreditCard\Ui\ConfigProvider\CreateHostedTokenizationResponseProcessor;
 
 /**
  * Resolver to pull URL for iFrame

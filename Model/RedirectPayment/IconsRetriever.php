@@ -1,10 +1,10 @@
 <?php
 declare(strict_types=1);
 
-namespace Worldline\GraphQl\Model\RedirectPayment;
+namespace Cawl\GraphQl\Model\RedirectPayment;
 
-use Worldline\GraphQl\Model\PaymentIcons\IconsRetrieverInterface;
-use Worldline\PaymentCore\Api\Ui\PaymentIconsProviderInterface;
+use Cawl\GraphQl\Model\PaymentIcons\IconsRetrieverInterface;
+use Cawl\PaymentCore\Api\Ui\PaymentIconsProviderInterface;
 
 class IconsRetriever implements IconsRetrieverInterface
 {

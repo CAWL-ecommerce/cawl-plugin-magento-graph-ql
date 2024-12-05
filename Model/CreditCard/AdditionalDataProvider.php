@@ -1,11 +1,11 @@
 <?php
 declare(strict_types=1);
 
-namespace Worldline\GraphQl\Model\CreditCard;
+namespace Cawl\GraphQl\Model\CreditCard;
 
 use Magento\Framework\GraphQl\Exception\GraphQlInputException;
 use Magento\QuoteGraphQl\Model\Cart\Payment\AdditionalDataProviderInterface;
-use Worldline\CreditCard\Ui\ConfigProvider;
+use Cawl\CreditCard\Ui\ConfigProvider;
 
 class AdditionalDataProvider implements AdditionalDataProviderInterface
 {
