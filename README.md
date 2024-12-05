@@ -12,7 +12,7 @@ To install this solution, you may use
 or install it from the GitHub.
 
 This addon is also included into:
-- [main plugin for adobe commerce](https://github.com/wl-online-payments-direct/plugin-magento)
+- [main plugin for adobe commerce](https://github.com/Worldline-Plugins/cawl-plugin-magento)
 
 ### Change log:
 
