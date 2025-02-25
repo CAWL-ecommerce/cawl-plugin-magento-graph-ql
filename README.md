@@ -12,8 +12,12 @@ This addon is included into:
 
 ### Change log:
 
+#### 1.1.2
+- Update the redirect-payment CAWL module to version 1.1.2
+- Update the core CAWL module to version 1.1.1
+
 #### 1.1.1
-- Update the redirect-payment CAWL module
+- Update the redirect-payment CAWL module to version 1.1.1
 
 #### 1.1.0
 - Fixed validation for HTML template ID configuration. It is no longer required to have extension on HTML templates.
