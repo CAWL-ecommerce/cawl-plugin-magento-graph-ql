@@ -12,6 +12,10 @@ This addon is included into:
 
 ### Change log:
 
+#### 1.1.3
+- Update the redirect-payment CAWL module to version 1.1.3
+- Update the core CAWL module to version 1.1.2
+
 #### 1.1.2
 - Update the redirect-payment CAWL module to version 1.1.2
 - Update the core CAWL module to version 1.1.1
