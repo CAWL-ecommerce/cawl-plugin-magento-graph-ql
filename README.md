@@ -12,6 +12,9 @@ This addon is included into:
 
 ### Change log:
 
+#### 1.1.4
+- Add 3DS exemption types to the plugin
+
 #### 1.1.3
 - Update the redirect-payment CAWL module to version 1.1.3
 - Update the core CAWL module to version 1.1.2
