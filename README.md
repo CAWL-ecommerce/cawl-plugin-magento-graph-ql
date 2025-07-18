@@ -12,6 +12,10 @@ This addon is included into:
 
 ### Change log:
 
+#### 1.1.10
+- Fix logo issue for CB on checkout page
+- Fix PHP >= 8.2 issue with not sending parameter by reference
+
 #### 1.1.9
 - Update the redirect-payment CAWL module to version 1.1.9
 - Update the credit-card CAWL module to version 1.1.8
