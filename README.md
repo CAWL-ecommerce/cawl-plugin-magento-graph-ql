@@ -12,6 +12,12 @@ This addon is included into:
 
 ### Change log:
 
+#### 1.1.15
+- Add quote ID to request payload
+- Fix wrong IP address being sent on checkout
+- Decrease maximum payment method logos
+- Add compatibility with 2.4.8-p2
+
 #### 1.1.14
 - Fix issue with sending email
 
