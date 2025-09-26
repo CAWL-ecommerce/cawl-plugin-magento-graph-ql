@@ -12,6 +12,9 @@ This addon is included into:
 
 ### Change log:
 
+#### 1.1.16
+- Allow order creation on amount discrepancies
+
 #### 1.1.15
 - Add quote ID to request payload
 - Fix wrong IP address being sent on checkout
