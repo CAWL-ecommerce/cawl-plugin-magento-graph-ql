@@ -12,6 +12,10 @@ This addon is included into:
 
 ### Change log:
 
+#### 1.1.17
+- Fix print invoice issue
+- Update payment brand logos
+
 #### 1.1.16
 - Allow order creation on amount discrepancies
 
