@@ -12,6 +12,9 @@ This addon is included into:
 
 ### Change log:
 
+#### 1.1.19
+- Add new payment method: Pledg
+
 #### 1.1.18
 - Remove MealVouchers configuration from hosted checkout
 - Fix mobile payment method information not being shown in order details
