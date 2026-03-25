@@ -1,0 +1,1 @@
+Built from Worldline-Plugins/cawl-plugin-magento-graph-ql@v1.1.32 on Wed Mar 25 09:40:01 UTC 2026
